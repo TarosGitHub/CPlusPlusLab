@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClCompile Include="literals.cpp" />
     <ClCompile Include="types.cpp" />
+    <ClCompile Include="variables.cpp" />
     <ClCompile Include="vs.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
