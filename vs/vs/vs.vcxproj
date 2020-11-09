@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="literals.cpp" />
+    <ClCompile Include="operators.cpp" />
     <ClCompile Include="types.cpp" />
     <ClCompile Include="variables.cpp" />
     <ClCompile Include="vs.cpp" />
