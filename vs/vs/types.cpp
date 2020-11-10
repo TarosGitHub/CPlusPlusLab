@@ -66,3 +66,5 @@ Status enums()
 
 	return ret;
 }
+
+// ※ 配列、構造体、クラスは別ファイルに記述
