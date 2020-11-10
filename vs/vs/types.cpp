@@ -52,3 +52,17 @@ void types()
 	func bar = foo;
 	bar(22);
 }
+
+// 列挙型
+enum Status {
+	SUCCESS, // = 0
+	FAILURE = -10
+};
+
+Status enums()
+{
+	Status ret = Status::SUCCESS;
+	// ret = 0; コンパイルエラー
+
+	return ret;
+}
