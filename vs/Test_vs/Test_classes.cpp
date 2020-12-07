@@ -19,4 +19,23 @@ namespace Testclasses
 			Assert::AreEqual(20, alice.get_age());
 		}
 	};
+
+	TEST_CLASS(Test_Abstract_Class)
+	{
+	public:
+
+		string draw_shape(Shape& shape)
+		{
+			return shape.draw();
+		}
+
+		TEST_METHOD(Test_Shape_draw)
+		{
+			Square square;
+			Circle circle;
+
+			Assert::AreEqual(string("Å†"), draw_shape(square));
+			Assert::AreEqual(string("ÅZ"), draw_shape(circle));
+		}
+	};
 }

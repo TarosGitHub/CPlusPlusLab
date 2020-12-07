@@ -30,3 +30,13 @@ void Person::set_age(int age)
 {
 	this->age = age;
 }
+
+std::string Square::draw()
+{
+	return " ";
+}
+
+std::string Circle::draw()
+{
+	return "Z";
+}

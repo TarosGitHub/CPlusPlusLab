@@ -53,6 +53,18 @@ public:
 
 // 抽象クラス
 class Shape {
-public :
-	virtual void draw() = 0; // 純粋仮想関数
+public:
+	virtual std::string draw() = 0; // 純粋仮想関数
+};
+
+class Square : public Shape {
+public:
+	// override
+	std::string draw();
+};
+
+class Circle : public Shape {
+public:
+	// override
+	std::string draw();
 };
