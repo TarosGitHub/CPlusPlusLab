@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="classes.cpp" />
+    <ClCompile Include="controls.cpp" />
     <ClCompile Include="literals.cpp" />
     <ClCompile Include="operators.cpp" />
     <ClCompile Include="templates.cpp" />
