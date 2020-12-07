@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "CppUnitTest.h"
 #include <string>
 #include "classes.h"
@@ -6,7 +5,7 @@
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 using namespace std;
 
-namespace TestGrammar
+namespace Test_classes
 {
 	TEST_CLASS(TestClass)
 	{
